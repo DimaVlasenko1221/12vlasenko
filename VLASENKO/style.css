@@ -1,0 +1,498 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.guitarsbtn {
+  width: 139px;
+  height: 55px;
+  background-color: #C4C4C4;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+.guitarsbtnhref {
+  text-decoration: none;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 19.69px;
+  font-weight: 500;
+}
+
+.courses {
+  display: flex;
+  margin: auto;
+  margin-left: 210px;
+}
+
+.p-courses {
+  margin-right: 56px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 19.69px;
+  font-weight: 500;
+}
+
+.courseshref{
+  margin-right: 56px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 19.69px;
+  font-weight: 500;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav {
+  display: flex;
+  margin: auto;
+  margin-left: 254px;
+}
+
+.navhref{
+  margin-right: 56px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 19.69px;
+  font-weight: 500;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.headerbtn {
+  width: 162.46px;
+  height: 82.5px;
+  background-color: #C4C4C4;
+  border: none;
+  cursor: pointer;
+  margin: auto auto auto auto;
+  background-color: black;
+}
+
+.headerbtnhref {
+  text-decoration: none;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 19.69px;
+  font-weight: 500;
+}
+
+.headerbtn {
+  margin: auto;
+}
+
+.osn {
+  width: 90%;
+  background-image: url('./img/osn.png');
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.bodyimg {
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+}
+
+.bodytext {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: 0em;
+  margin-top: 400px;
+  margin-left: 80px;
+}
+
+.osnend {
+  margin-top: 100px;
+}
+
+.endbtn {
+  margin-left: auto;
+  display: block;
+  width: 126px;
+  height: 80px;
+  background-color: #C4C4C4;
+  border: none;
+  cursor: pointer;
+}
+
+.chat {
+  color: black;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.footer {
+  background-color: white;
+  display: flex;
+  margin: 50px 0px;
+}
+
+.trade {
+  margin-right: auto;
+  width: 120px;
+}
+
+.tradet {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+.years {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: -20px;
+}
+
+.info {
+  margin-left: auto;
+  display: flex;
+}
+
+.vk {
+  width: 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 100px;
+}
+
+.podd {
+  width: 200px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.loginbody {
+  width: 100%;
+  background-image: url(./img/loginback.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.loginpanel {
+  display: grid;
+  width: 400px;
+  margin: 40px auto;
+  padding: 40px 0;
+}
+
+.loginback {
+  width: 100%;
+  background-color: white;
+}
+
+.loginlogo {
+  width: 100%;
+}
+
+.logininput {
+  margin-top: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px;
+  border-color: black;
+}
+
+.loginbtn {
+  width: 80%;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: black;
+  border: none;
+}
+
+.loginbtnhref {
+  color: white;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.loginpanel a {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.guitarprobody {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guitarproimg {
+  width: 50%;
+}
+
+.guitarproinfo {
+  margin-left: 40px;
+  display: grid;
+}
+
+.guitarprohead {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left; 
+}
+
+.guitarprotext {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: -150px;
+}
+
+.guitarprobtn {
+  width: 328px;
+  height: 80px;
+  background-color: #C4C4C4;
+  border: none;
+  margin-top: -250px;
+}
+
+.guitarprohref {
+  color: black;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.guitarprobtn2 {
+  width: 266.67px;
+  height: 108px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.guitarnewbody {
+  display: grid;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.guitarnewbodyhead {
+  display: flex;
+  background-color: black;
+}
+
+.guitarnewimg {
+  width: 30%;
+  margin-right: auto;
+}
+
+.guitarnewbodyheadcontainer {
+  margin-top: 50px;
+  margin-right: 400px;
+}
+
+.guitarnewheadtext {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.guitarnewbodyheadcontainerfoot {
+  display: flex;
+}
+
+.gnbhfnov {
+  width: 137px;
+  height: 45px;
+  background-color: #C4C4C4;
+  margin-right: 300px;
+}
+
+.gnbhfwho {
+  background-color: #C4C4C4;
+}
+
+.guitarnewbodyheadtext {
+  color: black;
+  text-align: center;
+}
+
+.guitarnewabout {
+  display: flex;
+  margin-top: 40px;
+}
+
+.guitarnewaboutbox {
+  width: 324px;
+  height: 269px;
+  background-color: #C4C4C4;
+  margin: 0 auto;
+}
+
+.guitarnewaboutboxtext {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 30% 0;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tabsleft {
+  width: 30%;
+  height: 500px;
+  padding: 50px;
+  background-color: black;
+}
+
+.tabsleft p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.tabsright {
+  margin-left: auto;
+  width: 55%;
+}
+
+.tab {
+  width: 100%;
+}
+
+.tabssubscribe {
+  width: 100%;
+  height: 150px;
+  background-color: #C4C4C4;
+}
+
+.tabssubscribe p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.teachershead {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.teacherstext {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.couches {
+  display: flex;
+  margin-top: 80px;
+}
+
+.couch {
+  margin: auto;
+}
+
+.couchname {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.couchprof {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: -25px;
+}
